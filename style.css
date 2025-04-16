@@ -1,0 +1,176 @@
+body {
+    background-color: black;
+    font-family: "Smooch Sans", sans-serif;  
+}
+
+
+nav {
+    height: 70px;
+}
+
+
+.navLogo {
+    float: left;
+    height: 60px;
+    opacity: 25%;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+.topnav a {
+    float: left;
+    color: white;
+    opacity: 25%;
+    text-align: center;
+    padding: 20px 25px 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.topnav a:hover {
+    color: white;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+
+#active {
+    color: white;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+
+.topnav a.split {
+    float: right;
+}
+
+
+.AB-logo {
+    display: block;
+    height: 45%;
+    width: 45%;
+    padding-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 10%;
+}
+
+
+.mainName {
+    color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 7px;
+    word-spacing: 15px;
+}
+
+
+.subHead {
+    color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+}
+
+
+.aboutPhoto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 50px 0px 0px 20px;
+    border: 2px solid #555555;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.tkdPhoto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    margin: 50px 0px 0px 20px;
+    border: 2px solid #555555;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.aboutHeader {
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 3.5rem;
+    font-weight: 600;
+    width: 150px;
+    letter-spacing: 7px;
+    word-spacing: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 0px 0px 20px;
+}
+
+
+.aboutText {
+    color: white;
+    opacity: 50%;
+    width: 65vw;
+    font-weight: 300;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 50px 25px 0px 25px;
+    vertical-align: top;
+}
+
+
+.projHeader {
+    color: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 7px;
+    word-spacing: 15px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+.proj-photo {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    object-fit:scale-down;
+    object-position: center;
+    margin: 50px 25px 0px 25px;
+    border: 2px solid #555555;  
+    border-radius: 50px;
+    display: inline-block;
+}
+
+
+.proj-text {
+    color: white;
+    opacity: 50%;
+    width: 65vw;
+    vertical-align: top;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 50px 25px 0px 25px;
+    display: inline-block;
+}
+
+
+.divider {
+    color: white;
+    opacity: 20%;
+    margin: 70px 25px 10px 25px;
+}
+
+
+strong {
+    font-weight: 600;
+}
