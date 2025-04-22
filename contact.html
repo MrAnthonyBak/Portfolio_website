@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Bak</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img src="./Assets/Anthony-logo_white_sm.png" alt="small logo" class="logo-sm" />
+            <a href="./index.html" class="navLink">ANTHONY BAK</a>    
+        </div>
+        <div class="right-section">
+            <div>
+                <a href="/index.html" class="navLink">HOME</a>
+            </div>
+            <a href="/about.html" class="navLink">ABOUT</a>
+            <a href="/portfolio.html" class="navLink">PORTFOLIO</a>
+            <a href="/contact.html" class="navLink" id="active">CONTACT</a>
+        </div>
+    </div>
+    <div class="containerContact">
+        <div>
+            <h1 class="pageTitle">Contact Me</h1>
+        </div>
+        <div class="form">                
+            <label for="first-last" placeholder="First & Last Name">
+            </label>
+            <input name="first-last" type="text" id="first-last" placeholder="First & Last Name:"/>
+        </div>
+        <div class="form">
+            <label for="email">
+            </label>
+            <input name="email" type="email" id="email" placeholder="Email Address:"/>
+        </div>
+        <div class="form">
+            <label for="message">
+            </label>
+            <textarea name="message" id="message" cols="40" rows="8" maxlength="500" placeholder="Message Me Here:"></textarea>
+        </div>
+        <div class="form">
+            <form action="./success.html">
+            <input type="submit" id="submit" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>
